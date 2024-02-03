@@ -1,0 +1,35 @@
+@import "core/reset";
+.app {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  margin-right: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 150px;
+}
+ul {
+  list-style: none;
+}
+.item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: green;
+}
